@@ -15,8 +15,9 @@ yarn run lint
 ## Expected result
 
 ```
-  5:1   error  'fetch' is not defined   no-undef
-  9:20  error  'Worker' is not defined  no-undef
+   5:1   error  'fetch' is not defined         no-undef
+   9:20  error  'Worker' is not defined        no-undef
+  12:1   error  'localStorage' is not defined  no-undef
 
-✖ 2 problems (2 errors, 0 warnings)
+✖ 3 problems (3 errors, 0 warnings)
 ```

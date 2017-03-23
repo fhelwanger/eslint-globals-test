@@ -8,3 +8,5 @@ fetch('https://api.github.com/users/fhelwanger')
 
 const worker = new Worker('worker.js');
 worker.postMessage('test');
+
+localStorage.setItem('key', 'value');
