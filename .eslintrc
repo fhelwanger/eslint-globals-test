@@ -1,7 +1,11 @@
 {
   "extends": "eslint:recommended",
   "env": {
-    "browser": false
+    "browser": false,
+    "commonjs": true,
+    "es6": true,
+    "jest": true,
+    "node": true
   },
   "parserOptions": {
     "ecmaVersion": 6

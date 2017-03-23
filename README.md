@@ -15,10 +15,8 @@ yarn run lint
 ## Expected result
 
 ```
-  1:1   error  'setTimeout' is not defined  no-undef
-  2:3   error  'console' is not defined     no-undef
-  5:1   error  'fetch' is not defined       no-undef
-  9:20  error  'Worker' is not defined      no-undef
+  5:1   error  'fetch' is not defined   no-undef
+  9:20  error  'Worker' is not defined  no-undef
 
-✖ 4 problems (4 errors, 0 warnings)
+✖ 2 problems (2 errors, 0 warnings)
 ```
